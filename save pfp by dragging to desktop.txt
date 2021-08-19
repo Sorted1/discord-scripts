@@ -1,0 +1,4 @@
+var allImages = document.getElementsByTagName("img");
+    for (element of allImages) { 
+        element.draggable = true;
+    }
